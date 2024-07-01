@@ -25,6 +25,7 @@ import {
   threejs,
 } from "../assets";
 
+
 export const navLinks = [
   {
     id: "about",
@@ -42,20 +43,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Mobile Developer",
+    icon: mobile,
   },
 ];
 
@@ -97,76 +94,42 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  }
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Web and Mobile Developer",
+    company_name: "InnovaSoft",
+    icon: "/src/assets/company/innovasoft.png",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2022 - Current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      `Translation of UI mockups into organized UI components with responsive design, using React.js, Tailwind CSS and Material-UI.`,
+      `Implementation of development techniques like server-pagination and lazy loading to ensure application performance.`,
+      `Development of PL/SQL functions for complex operations.`,
+      "Deployment of the application on Azure VMs with nginx.",
+      "Development of native mobile application using Android (Java) and Oracle for backend operations.",
+      "Creation of a cross-platform version using Flutter and Express.js to expand reach across different devices.",
+      "Implementation of an intuitive and responsive user interface with Flutter, ensuring optimal user experience.",
+      "Deployment of the application on the Google Play Store."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Front End Developer",
+    company_name: "Bridges",
+    icon: "/src/assets/white-circle.png",
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Nov 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Translation of mockups into organized UI components with responsive design, using Angular, Bootstrap, and Material-UI.",
+      "Use of TypeScript for enhanced code quality, providing strong typing and better maintainability.",
+      "Implementation of reusable and modular components to improve code maintainability and scalability.",
+      "Incorporation of advanced mechanisms like lazy loading to optimize loading performance",
     ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ];
 
 const testimonials = [
